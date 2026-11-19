@@ -6,10 +6,13 @@
 
 ## 截图
 
-> 说明：截图放在 `docs/images/`。请将当前界面的截图放入该目录（**涉及本机路径的部分请打码**），再在下方用 `![]()` 引用。
->
-> - `docs/images/approval-dialog.png` —— 授权弹窗（危险等级 + 人话解释 + 备注 + 权限）
-> - `docs/images/approval-records.png` —— 右侧栏「授权记录」列表（含时间、可展开原始命令）
+**授权记录（右侧栏列表）** —— 危险等级标签、操作说明、备注、可展开原始命令、授权时间。
+
+![授权记录](docs/images/approval-records.png)
+
+**授权弹窗** —— 危险等级 + 人话解释 + 备注 + 所需权限 + 原始命令。
+
+![授权弹窗](docs/images/approval-dialog.png)
 
 ## 功能特性
 
