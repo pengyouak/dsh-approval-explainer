@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <defs>
+    <linearGradient id="ae-shield" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4f7cff"/>
+      <stop offset="1" stop-color="#2f55d0"/>
+    </linearGradient>
+  </defs>
+  <!-- Shield: the safe/gate context of an approval prompt -->
+  <path d="M18 3.5 29 7.2v8.6c0 6.6-4.6 12.3-11 15C11.6 28.1 7 22.4 7 15.8V7.2L18 3.5Z" fill="url(#ae-shield)" stroke="#1c3aa0" stroke-width="1.4"/>
+  <!-- Speech bubble: the prompt is explained in plain words -->
+  <path d="M11 12.5h9.6a1.5 1.5 0 0 1 1.5 1.5v4.6a1.5 1.5 0 0 1-1.5 1.5h-4.6l-2.2 2.2v-2.2H11a1.5 1.5 0 0 1-1.5-1.5V14a1.5 1.5 0 0 1 1.5-1.5Z" fill="#d6e1ff"/>
+  <!-- Exclamation mark: flags a risky action -->
+  <path d="M26 10.6h2.2l-.55 5.1h-1.1L26 10.6Z" fill="#ffb020"/>
+  <circle cx="27.1" cy="18.2" r="0.9" fill="#ffb020"/>
+</svg>

@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Approval explainer",
+    "description": "Translates approval prompts into plain language, flags dangerous actions, and lists every recorded approval (explanation + command + outcome) in a right-sidebar panel. Reads each permission request the agent raises, turns the command into human-readable text, marks destructive or risky operations, re-presents a reorganized approval dialog, and keeps a live history list on the right.",
+    "detail": "docs/DETAIL.md"
+  }
+}
