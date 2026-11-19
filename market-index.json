@@ -1,0 +1,33 @@
+{
+  "format": 1,
+  "title": { "en": "Approval tools", "zh": "授权工具" },
+  "description": {
+    "en": "Community index for DSH approval helpers.",
+    "zh": "DSH 授权辅助插件的社区索引。"
+  },
+  "plugins": [
+    {
+      "name": "@pengyouak/dsh-approval-explainer",
+      "title": { "en": "Approval explainer", "zh": "授权提示翻译器" },
+      "description": {
+        "en": "Translates DSH approval prompts into plain language, flags dangerous actions with a risk tag, and lists a per-session approval history in the right sidebar.",
+        "zh": "把 DSH 授权提示翻译成普通人能读懂的说明、用危险等级标签标注风险，并在右侧栏列出每次授权的历史（含时间、可展开原始命令）。"
+      },
+      "author": "pengyouak",
+      "homepage": "https://github.com/pengyouak/dsh-approval-explainer",
+      "repository": { "url": "https://github.com/pengyouak/dsh-approval-explainer" },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1795068114,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/pengyouak/dsh-approval-explainer",
+            "commit": "ba6ac7c0b994a677127818f638dd29a9301fa666"
+          },
+          "engines": { "dsh": ">=0.2.2-rc.3" }
+        }
+      ]
+    }
+  ]
+}
