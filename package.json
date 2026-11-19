@@ -1,9 +1,15 @@
 {
-  "name": "dsh-approval-explainer",
+  "name": "@pengyouak/dsh-approval-explainer",
   "version": "1.0.0",
   "description": "Translates DSH approval prompts into plain language, flags dangerous actions with a risk tag, and lists a per-session approval history in the right sidebar.",
   "type": "module",
   "license": "MIT",
+  "author": "pengyouak",
+  "homepage": "https://github.com/pengyouak/dsh-approval-explainer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pengyouak/dsh-approval-explainer.git"
+  },
   "keywords": [
     "dsh-plugin",
     "dsh-bundle",

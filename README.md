@@ -59,8 +59,11 @@ Plugins → Add plugin → 选择本仓库目录。
 
 ### 方式 C：插件市场（索引驱动）
 1. 启用实验性市场 bundle（`@deepseek-ai/dsh-experimental-plugin-market-bundle`），打开 Plugins → Discover；
-2. 添加一个包含本插件的索引 URL（见 `docs/market-index.example.json`）；
+2. 添加索引 URL（本仓库根目录 `market-index.json` 的 raw HTTPS 地址，例如 `https://raw.githubusercontent.com/pengyouak/dsh-approval-explainer/main/market-index.json`）；
 3. 从列表安装。
+
+### 方式 D：npm（发布后）
+`npm publish` 之后，`install_bundle` 的 `target` 传 `@pengyouak/dsh-approval-explainer@1.0.0`。
 
 > 安装/升级后如为 Web / Desktop 界面，请**刷新或重启**以加载最新客户端模块。
 
@@ -79,10 +82,10 @@ Plugins → Add plugin → 选择本仓库目录。
 
 ## 发布（npm / Git）
 
-1. 包名：`package.json` 的 `name` 换成你的唯一 npm 名（可用 scope），并同步修改 `cordis.patch.yml` 的 `name` 与 `client.js` 中 `window.__ModuleLoader__.load({ id })` 的值（三者必须一致）。
-2. 元数据：补 `author` / `repository` / `homepage`。
-3. `engines.dsh` 按需调整。
-4. `npm publish`（或推公开 Git 仓库并固定 commit）。
+- 包名已设为 `@pengyouak/dsh-approval-explainer`。若改名，需同步三处：`package.json` 的 `name`、`cordis.patch.yml` 的 `name`、`client.js` 中 `window.__ModuleLoader__.load({ id })` 的值（三者必须一致）。
+- 已补 `author` / `repository` / `homepage`；`engines.dsh` 按需调整。
+- 发布到 npm：`npm publish --access public`（scoped 包首次发布需 `--access public`）。
+- 发布后把 `market-index.json` 里对应版本的 `source` 从 `git` 换成 `{ "type": "npm" }`（或新增一个 npm 版本条目）。
 
 ## 依赖
 

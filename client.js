@@ -9,13 +9,13 @@
 // the required ui-chat entry fail to activate, which breaks web boot.
 
 window.__ModuleLoader__.load({
-  id: 'dsh-approval-explainer',
+  id: '@pengyouak/dsh-approval-explainer',
   factory(require) {
     const React = require('react');
     const { useState } = React;
     const h = React.createElement;
 
-    const TAB_ID = 'dsh-approval-explainer/approvals';
+    const TAB_ID = '@pengyouak/dsh-approval-explainer/approvals';
     const KIND = 'approval-records';
     const NS = 'approvalExplainer';
     const PROJECTION_KEY = 'approvalExplainers';

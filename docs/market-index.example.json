@@ -4,7 +4,7 @@
   "description": { "en": "Community indexes for DSH approval helpers.", "zh": "DSH 授权辅助插件的社区索引。" },
   "plugins": [
     {
-      "name": "dsh-approval-explainer",
+      "name": "@pengyouak/dsh-approval-explainer",
       "title": { "en": "Approval explainer", "zh": "授权提示翻译器" },
       "description": {
         "en": "Translates approval prompts into plain language, flags dangerous actions with a risk tag, and lists a per-session approval history in the right sidebar.",

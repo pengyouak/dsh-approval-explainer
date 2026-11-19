@@ -1,4 +1,4 @@
 - insert:
     - id: approval-explainer
-      name: 'dsh-approval-explainer'
+      name: '@pengyouak/dsh-approval-explainer'
       config: {}
